@@ -121,11 +121,23 @@ export default function About() {
               flawlessly but also delight users with their aesthetic appeal and
               intuitive interfaces.
             </p>
-            <div className="pt-4">
+            {/* <div className="pt-4">
               <Button className="rounded-full px-6 group">
                 <FileDownIcon className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download Resume
               </Button>
+            </div> */}
+            <div className="pt-4">
+              <a
+                href="/resume.pdf"
+                download
+                className="inline-block"
+              >
+                <Button className="rounded-full px-6 group">
+                  <FileDownIcon className="mr-2 h-4 w-4 group-hover:animate-bounce" />
+                  Download Resume
+                </Button>
+              </a>
             </div>
           </motion.div>
         </div>

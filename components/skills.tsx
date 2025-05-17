@@ -75,9 +75,9 @@ export default function Skills() {
 
   const stats = [
     { value: 5, label: "Years Experience" },
-    { value: 50, label: "Projects Completed" },
-    { value: 20, label: "Happy Clients" },
-    { value: 10, label: "Awards" },
+    { value: 20, label: "Projects Completed" },
+    { value: 5, label: "Happy Clients" },
+    { value: 5, label: "Certificates" },
   ]
 
   return (
