@@ -111,7 +111,7 @@ export default function About() {
             <p className="text-lg text-muted-foreground leading-relaxed">
               I'm a passionate fullstack developer and designer with a keen eye
               for creating engaging, interactive experiences. With expertise in
-              modern web technologies and animation techniques, I bring digital
+              modern web, mobile app technologies and animation techniques, I bring digital
               products to life through thoughtful design and smooth
               interactions.
             </p>

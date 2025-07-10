@@ -19,6 +19,7 @@ import {
   CpuIcon,
   BarChartIcon,
   CloudIcon,
+  Smartphone,
   SmartphoneIcon,
   ShieldIcon,
 } from "lucide-react"
@@ -38,6 +39,7 @@ export default function SkillsMarquee() {
   const skills: Skill[] = [
     { name: "JavaScript", icon: <CodeIcon className="h-6 w-6" />, color: "bg-yellow-500" },
     { name: "React", icon: <CodeIcon className="h-6 w-6" />, color: "bg-blue-400" },
+    { name: "React Native", icon: <Smartphone className="h-6 w-6" />, color: "bg-blue-400" },
     { name: "TypeScript", icon: <CodeIcon className="h-6 w-6" />, color: "bg-blue-600" },
     { name: "Next.js", icon: <PackageIcon className="h-6 w-6" />, color: "bg-black" },
     { name: "HTML5", icon: <LayoutIcon className="h-6 w-6" />, color: "bg-orange-500" },
