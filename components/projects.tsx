@@ -45,6 +45,14 @@ export default function Projects() {
       githubUrl: "https://github.com/Emeka-Okpaleke/hotel-pro",
     },
     {
+      title: "3D Motion Visualization",
+      description: "A professional Three.js web application demonstrating real-time 3D model visualization with animation capabilities, perfect for showcasing motion analytics and performance tracking skills.",
+      image: "/3d.png",
+      tags: ["Three.js", "Javascript"],
+      liveUrl: "https://3d-athlete-viewer.vercel.app/",
+      githubUrl: "https://github.com/Emeka-Okpaleke/3D-model",
+    },
+    {
       title: "DevLink – Developer Portfolio & Networking Platform",
       description: "DevLink is a fullstack web application where developers can showcase their work, build personal portfolios, and connect with other developers — like GitHub meets LinkedIn for coders.",
       image: "/devlink.png",
@@ -60,14 +68,7 @@ export default function Projects() {
       liveUrl: "https://movie-search-web-sigma.vercel.app/",
       githubUrl: "https://github.com/Emeka-Okpaleke/movie-search-web",
     },
-    {
-      title: "Accounting Firm Website",
-      description: "A professional website built for an accounting firm that offers Tax, CFO & Advisory, and Accounting Services. The goal was to create a clean, trustworthy, and informative web presence to attract and convert potential clients.",
-      image: "/asofinancial.png",
-      tags: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
-      liveUrl: "https://www.asofinancial.com/",
-      githubUrl: "#",
-    },
+
   ]
 
   return (
