@@ -7,6 +7,7 @@ import { motion } from "framer-motion"
 import { useTheme } from "next-themes"
 import {
   CodeIcon,
+  BotIcon,
   LayoutIcon,
   ServerIcon,
   DatabaseIcon,
@@ -17,6 +18,7 @@ import {
   TerminalIcon,
   PackageIcon,
   CpuIcon,
+  Zap,
   BarChartIcon,
   CloudIcon,
   Smartphone,
@@ -38,7 +40,9 @@ export default function SkillsMarquee() {
 
   const skills: Skill[] = [
     { name: "JavaScript", icon: <CodeIcon className="h-6 w-6" />, color: "bg-yellow-500" },
+    { name: "Fast API", icon: <ZapIcon className="h-6 w-6" />, color: "bg-yellow-500" },
     { name: "React", icon: <CodeIcon className="h-6 w-6" />, color: "bg-blue-400" },
+    { name: "RAG", icon: <BotIcon className="h-6 w-6" />, color: "bg-yellow-500" },
     { name: "React Native", icon: <Smartphone className="h-6 w-6" />, color: "bg-blue-400" },
     { name: "TypeScript", icon: <CodeIcon className="h-6 w-6" />, color: "bg-blue-600" },
     { name: "Next.js", icon: <PackageIcon className="h-6 w-6" />, color: "bg-black" },

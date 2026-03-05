@@ -345,8 +345,8 @@ export default function Hero({ animateOnLoad = false }: HeroProps) {
               options={{
                 strings: [
                   "FullStack Developer",
+                  "AI Engineer",
                   "Mobile Developer",
-                  "Creative Technologist",
                   "Animation Specialist",
                 ],
                 autoStart: true,

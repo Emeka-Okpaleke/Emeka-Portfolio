@@ -6,7 +6,7 @@ import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import CountUp from "react-countup"
-import { Code2Icon, PenToolIcon, LayoutIcon, ZapIcon, DatabaseIcon, GitBranchIcon, Smartphone } from "lucide-react"
+import { Code2Icon, PenToolIcon, LayoutIcon, ZapIcon, DatabaseIcon, GitBranchIcon, Smartphone, BotIcon } from "lucide-react"
 
 interface Skill {
   name: string
@@ -53,9 +53,9 @@ export default function Skills() {
       color: "from-blue-500 to-cyan-500",
     },
     {
-      name: "Responsive Design",
+      name: "AI Engineering",
       percentage: 98,
-      icon: <LayoutIcon className="h-6 w-6" />,
+      icon: <BotIcon className="h-6 w-6" />,
       color: "from-green-500 to-emerald-500",
     },
     { name: "Animation", percentage: 85, icon: <ZapIcon className="h-6 w-6" />, color: "from-amber-500 to-orange-500" },

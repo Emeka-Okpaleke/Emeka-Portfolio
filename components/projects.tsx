@@ -38,6 +38,14 @@ export default function Projects() {
 
   const projects: Project[] = [
     {
+      title: "RAG Knowledge Base",
+      description: "Enterprise-grade knowledge base with Retrieval-Augmented Generation (RAG) powered Q&A. Upload documents (PDF, DOCX, TXT, Markdown), ask natural language questions, and get AI-generated answers with source citations.",
+      image: "/RAG.png",
+      tags: ["Python", "FastAPI", "ChromaDB", "Ollama / Groq", "Pydantic", "Next.js 14"],
+      liveUrl: "https://rag-kb-seven.vercel.app/",
+      githubUrl: "https://github.com/Emeka-Okpaleke/RAG-KB",
+    },
+    {
       title: "HotelPro Dashboard",
       description: "HotelPro is a comprehensive hotel management dashboard designed to streamline operations for hospitality businesses. The dashboard provides a centralized interface for managing various aspects of hotel operations including reservations, room management, billing, guest feedback, and room service.",
       image: "/hotelpro-mock.png",

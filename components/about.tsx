@@ -109,11 +109,11 @@ export default function About() {
               Creative Developer & Designer
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate fullstack developer and designer with a keen eye
-              for creating engaging, interactive experiences. With expertise in
-              modern web, mobile app technologies and animation techniques, I bring digital
-              products to life through thoughtful design and smooth
-              interactions.
+              I am a passionate FullStack Developer and AI Systems Engineer with 4+ years of experience building scalable 
+              web and mobile applications, backend APIs, and production ready AI driven systems. Proficient 
+              in Python, FastAPI, Node.js, SQL, React/React Native, and AI/ML workflows. Experienced in 
+              developing and specialized in architecting end to end LLM pipelines, semantic search 
+              infrastructure, integrating data analytics, and delivering seamless user experiences. 
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               My approach combines technical precision with creative vision,
